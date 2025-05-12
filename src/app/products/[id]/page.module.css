@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Article for the product details */
+.product {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Product title */
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+/* Content area with the image and description */
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Description section (left side) */
+.descriptionSection {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Product description */
+.description {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+}
+
+/* Image section (right side) */
+.imageSection {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Product image */
+.image {
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+/* Divider between content and bottom section */
+.divider {
+    margin: 40px 0;
+    border: none;
+    height: 2px;
+    background-color: #ddd;
+}
+
+/* Bottom section for price and button */
+.bottomSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+/* Price text */
+.price {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Add to Cart button */
+.button {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.button:hover {
+    background-color: #005bb5;
+}
